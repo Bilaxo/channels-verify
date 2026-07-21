@@ -1,6 +1,6 @@
 # IPTV playlist
 
-Auto-tested IPTV playlist. Every 3 days a GitHub Action tests every stream and
+Auto-tested IPTV playlist. Every 6 days a GitHub Action tests every stream and
 removes the dead ones from `list.m3u`.
 
 **Playlist URL for your player:**
@@ -21,7 +21,7 @@ the file is updated.
 | `list.m3u` | The playlist. This is the file that gets cleaned. |
 | `check_streams.py` | Tests the streams |
 | `requirements.txt` | Python dependency |
-| `.github/workflows/check-playlist.yml` | Runs the check every 3 days |
+| `.github/workflows/check-playlist.yml` | Runs the check every 6 days |
 | `removed.m3u` | Channels that were removed (created on first run) |
 | `strikes.json` | Failure counts between runs (created on first run) |
 | `health.md` | Report from the last run (created on first run) |
