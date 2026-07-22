@@ -22,10 +22,13 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Test every stream
+      # Tests every stream. Dead channels are first healed with a fresh URL
+      # from the upstream sources (iptv-org API + Free-TV); only the ones with
+      # no working replacement are removed. Pass --no-replace to disable healing.
+      - name: Test and heal every stream
         run: python3 check_streams.py list.m3u
 
-      - name: Commit the cleaned playlist
+      - name: Commit the healed / cleaned playlist
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -33,6 +36,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "no changes"
           else
-            git commit -m "Remove dead channels ($(date -u +%Y-%m-%d))"
+            git commit -m "Heal and clean playlist ($(date -u +%Y-%m-%d))"
             git push
           fi
