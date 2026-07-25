@@ -87,16 +87,8 @@ https://636ffd31f0e12.streamlock.net/RacingStream2/RacingStream2/playlist.m3u8
 https://the-pet-collective-international-au.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/GTxN2nH.png" group-title="Australia",WeatherSpy (720p)
 https://jukin-weatherspy-2-au.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/E97M2OL.png" group-title="Azerbaijan",ARB
-https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/mtvIFyq.png" group-title="Azerbaijan",ARB 24
-https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb-24.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/dSg7KUK.png" group-title="Azerbaijan",ARB Gunes
-https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/arb-gunes.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/snBMMeH.png" group-title="Azerbaijan",Az TV (1080p)
 https://str.yodacdn.net/azertv/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/r4FzxSg.png" group-title="Azerbaijan",Baku TV (720p)
-https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/baku-tv.m3u8
 #EXTINF:-1 tvg-logo="https://live.ntv.az/kanal35.png" group-title="Azerbaijan",Kanal 35 (720p)
 https://str2.yodacdn.net/kanal35/index.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Kanal%20S.png" group-title="Azerbaijan",Kanal S
@@ -105,8 +97,6 @@ https://lives.atv.az:5443/KANAL-S/streams/kanals.m3u8
 https://str.yodacdn.net/medeniyyettele/index.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/8yLFkdE.png" group-title="Azerbaijan",Naxcivan TV (720p)
 https://str2.yodacdn.net/ntv/video.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ufvVQJH.png" group-title="Azerbaijan",Space TV
-https://raw.githubusercontent.com/UzunMuhalefet/streams/main/myvideo-az/space-tv.m3u8
 #EXTINF:-1 tvg-logo="https://vilayet.tv/wp-content/uploads/elementor/thumbs/logo-q3w2md1u47q39x7d0004wqzz74xdv1glw356ex6ph0.png" group-title="Azerbaijan",Vilayet TV
 https://nl.livekadeh.com/hls2/vilayet.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/97/X%C9%99z%C9%99r_TV_Logo.png" group-title="Azerbaijan",Xezer TV (720p)
@@ -1770,8 +1760,6 @@ https://canli.tgrthaber.com/tgrt.m3u8
 https://live.artidijitalmedya.com/artidijital_tivi6/tivi6/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/3zHdkYG.png" group-title="Turkey",TJK TV (1080p)
 https://tjktv-live.tjk.org/tjktv.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/28AyWHe.png" group-title="Turkey",TMB TV
-https://raw.githubusercontent.com/UzunMuhalefet/streams/refs/heads/main/myvideo-az/tmb-azerbaycan.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/f0Soeob.png" group-title="Turkey",Ton TV (720p) [Not 24/7]
 https://live.artidijitalmedya.com/artidijital_tontv/tontv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TRT_Avaz_logo.svg/960px-TRT_Avaz_logo.svg.png" group-title="Turkey",TRT Avaz (720p)
