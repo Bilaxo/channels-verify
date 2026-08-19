@@ -1,11 +1,11 @@
 # Stream health
 
-_Last checked 2026-08-13 05:50 UTC_
+_Last checked 2026-08-19 04:54 UTC_
 
-- Channels in playlist: **1316**
-- Failed this run: **56**
-- Healed this run: **3**
-- Removed this run: **17**
+- Channels in playlist: **1300**
+- Failed this run: **38**
+- Healed this run: **0**
+- Removed this run: **16**
 
 When a channel fails twice in a row we first try to heal it with a fresh URL from upstream sources (iptv-org, Free-TV). Only channels with no working replacement are moved to `removed.m3u`.
 
@@ -13,39 +13,29 @@ When a channel fails twice in a row we first try to heal it with a fresh URL fro
 
 | Reason | Channels |
 | --- | ---: |
-| http 404 | 25 |
-| connect timeout | 17 |
-| http 403 (blocked) | 9 |
-| connectionerror | 2 |
-| http 502 | 2 |
-| read timeout | 1 |
-
-## Healed this run
-
-| Channel | New source | New URL |
-| --- | --- | --- |
-| ArabTV (720p) | iptv-org | https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8 |
-| Bharat Express (1080p) | iptv-org | https://stream1.livebox.co.in/VCAREhls/live.m3u8 |
-| Panorama TV (720p) | iptv-org | https://159.69.221.56/panorama/livestream/playlist.m3u8 |
+| http 404 | 18 |
+| connect timeout | 14 |
+| http 502 | 3 |
+| read timeout | 2 |
+| http 403 (blocked) | 1 |
 
 ## Removed this run
 
 | Channel | Last error |
 | --- | --- |
-| ATN News (1080p) | http 404 |
-| Andijon MTRK (576i) | read timeout |
-| Buxoro MTRK (720p) | http 404 |
-| DM TV Malang | http 404 |
-| Desh TV (1080p) | http 404 |
-| Dijlah TV (1080p) | http 404 |
-| Farg'ona MTRK | http 404 |
-| Independent TV (1080p) | http 404 |
-| Jamuna TV (1080p) | http 404 |
-| Ketchup TV (720p) | http 502 |
-| MoviePlex (576p) | http 404 |
-| Munsif Tv (720p) | connectionerror |
-| Navoiy MTRK (576i) | http 404 |
-| Qaraqalpaqstan (720p) | http 404 |
-| Sakti TV (720p) | http 404 |
-| YAAAS! (720p) [Geo-blocked] | http 502 |
-| Yemen TV (480p) | connect timeout |
+| &flix (1080p) | http 404 |
+| Badakhshon (576p) | connect timeout |
+| Dushanbe HD (1080p) | connect timeout |
+| Futbol (1080p) | connect timeout |
+| Ilm va Tabiat (1080p) | connect timeout |
+| Jahonnamo (1080p) | connect timeout |
+| Khatlon (576p) | connect timeout |
+| TMT (1080p) | connect timeout |
+| TV Bahoriston (1080p) | connect timeout |
+| TV Kulob (576p) | connect timeout |
+| TV Safina (1080p) | connect timeout |
+| TV Sayohi (1080p) | connect timeout |
+| TV Sinamo (1080p) | connect timeout |
+| TV Sugd (1080p) | connect timeout |
+| Tajikistan (1080p) | connect timeout |
+| ZB Music (720p) | http 404 |
