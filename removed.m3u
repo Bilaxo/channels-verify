@@ -1,33 +1,16 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Andflix.in@SD" tvg-logo="https://i.imgur.com/WOyfzjC.png" group-title="India",&flix (1080p)
-https://gpuserver3.tier1streams.com/FLIX/index.m3u8
-#EXTINF:-1 tvg-id="ZBMusic.in" tvg-logo="https://i.imgur.com/k1nb8u1.jpeg" group-title="India",ZB Music (720p)
-https://server.zillarbarta.com/zbmusic/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/iK6AmkZ.png" group-title="Tajikistan",Badakhshon (576p)
-https://live.teleradiocom.tj/11/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/WWPIziG.png" group-title="Tajikistan",Dushanbe HD (1080p)
-https://live.teleradiocom.tj/7/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/RngmCDn.png" group-title="Tajikistan",Futbol (1080p)
-https://live.teleradiocom.tj/8/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/MDULX7X.png" group-title="Tajikistan",Ilm va Tabiat (1080p)
-https://live.teleradiocom.tj/15/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ffqdD8W.png" group-title="Tajikistan",Jahonnamo (1080p)
-https://live.teleradiocom.tj/4/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/X4xVpBj.png" group-title="Tajikistan",Khatlon (576p)
-https://live.teleradiocom.tj/10/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sEXCFNk.png" group-title="Tajikistan",Tajikistan (1080p)
-https://live.teleradiocom.tj/1/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Dg0UkNR.png" group-title="Tajikistan",TMT (1080p)
-https://live.teleradiocom.tj/9/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Dacai5z.png" group-title="Tajikistan",TV Bahoriston (1080p)
-https://live.teleradiocom.tj/3/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/AFgEYFp.png" group-title="Tajikistan",TV Kulob (576p)
-https://live.teleradiocom.tj/12/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/Ho2vKZJ.png" group-title="Tajikistan",TV Safina (1080p)
-https://live.teleradiocom.tj/2/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/lAkMrtr.png" group-title="Tajikistan",TV Sayohi (1080p)
-https://live.teleradiocom.tj/16/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/W2qz5a4.png" group-title="Tajikistan",TV Sinamo (1080p)
-https://live.teleradiocom.tj/6/3m.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/YzkwTHb.png" group-title="Tajikistan",TV Sugd (1080p)
-https://live.teleradiocom.tj/14/3m.m3u8
+#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALL_TIME_MOVIES/images/LOGO_HD/image.png" group-title="India",All Time Movies (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+http://103.175.73.12:8080/live/54/54_0.m3u8
+#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002YJ850.png?lock=720x540" group-title="India",Big Magic (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+http://103.175.73.12:8080/live/13/13_0.m3u8
+#EXTINF:-1 tvg-id="ColorsInfinity.in@SD" tvg-logo="https://i.imgur.com/a5uES9j.png" group-title="India",Colors Infinity (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
+http://103.175.73.12:8080/live/29/29_0.m3u8
+#EXTINF:-1 tvg-id="StarGoldRomance.in@SD" tvg-logo="https://i.imgur.com/gSWv9U3.png" group-title="India",Star Gold Romance (576p)
+http://103.253.18.58:8000/play/a017
+#EXTINF:-1 tvg-logo="https://i.imgur.com/qGRa1KI.png" group-title="Turkey",On4 TV (1080p)
+https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/FcT3beY.png" group-title="United States | Sports",RFD-TV
+http://40.160.24.55/RFD-TV/index.m3u8

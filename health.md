@@ -1,11 +1,11 @@
 # Stream health
 
-_Last checked 2026-08-19 04:54 UTC_
+_Last checked 2026-08-25 04:56 UTC_
 
-- Channels in playlist: **1300**
-- Failed this run: **38**
-- Healed this run: **0**
-- Removed this run: **16**
+- Channels in playlist: **1294**
+- Failed this run: **37**
+- Healed this run: **4**
+- Removed this run: **6**
 
 When a channel fails twice in a row we first try to heal it with a fresh URL from upstream sources (iptv-org, Free-TV). Only channels with no working replacement are moved to `removed.m3u`.
 
@@ -13,29 +13,31 @@ When a channel fails twice in a row we first try to heal it with a fresh URL fro
 
 | Reason | Channels |
 | --- | ---: |
-| http 404 | 18 |
-| connect timeout | 14 |
-| http 502 | 3 |
-| read timeout | 2 |
+| http 404 | 13 |
+| connectionerror | 11 |
+| connect timeout | 8 |
 | http 403 (blocked) | 1 |
+| http 401 (blocked) | 1 |
+| read timeout | 1 |
+| http 502 | 1 |
+| http 500 | 1 |
+
+## Healed this run
+
+| Channel | New source | New URL |
+| --- | --- | --- |
+| CGTN Arabic (1080p) [Not 24/7] | iptv-org | https://news.cgtn.com/resource/live/arabic/cgtn-a.m3u8 |
+| CGTN Français (1080p) [Not 24/7] | iptv-org | https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8 |
+| SYFY (1080p) | iptv-org | http://23.237.104.106:8080/USA_SYFY/index.m3u8 |
+| Salam TV (1080p) | iptv-org | https://live.salamtelevisi.com/hls/0/stream.m3u8 |
 
 ## Removed this run
 
 | Channel | Last error |
 | --- | --- |
-| &flix (1080p) | http 404 |
-| Badakhshon (576p) | connect timeout |
-| Dushanbe HD (1080p) | connect timeout |
-| Futbol (1080p) | connect timeout |
-| Ilm va Tabiat (1080p) | connect timeout |
-| Jahonnamo (1080p) | connect timeout |
-| Khatlon (576p) | connect timeout |
-| TMT (1080p) | connect timeout |
-| TV Bahoriston (1080p) | connect timeout |
-| TV Kulob (576p) | connect timeout |
-| TV Safina (1080p) | connect timeout |
-| TV Sayohi (1080p) | connect timeout |
-| TV Sinamo (1080p) | connect timeout |
-| TV Sugd (1080p) | connect timeout |
-| Tajikistan (1080p) | connect timeout |
-| ZB Music (720p) | http 404 |
+| All Time Movies (576p) | connect timeout |
+| Big Magic (576p) | connect timeout |
+| Colors Infinity (1080p) | connect timeout |
+| On4 TV (1080p) | http 404 |
+| RFD-TV | http 404 |
+| Star Gold Romance (576p) | http 403 (blocked) |
