@@ -1,16 +1,9 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://xstreamcp-assets-msp.streamready.in/assets/LIVETV/LIVECHANNEL/LIVETV_LIVETVCHANNEL_ALL_TIME_MOVIES/images/LOGO_HD/image.png" group-title="India",All Time Movies (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-http://103.175.73.12:8080/live/54/54_0.m3u8
-#EXTINF:-1 tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002YJ850.png?lock=720x540" group-title="India",Big Magic (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-http://103.175.73.12:8080/live/13/13_0.m3u8
-#EXTINF:-1 tvg-id="ColorsInfinity.in@SD" tvg-logo="https://i.imgur.com/a5uES9j.png" group-title="India",Colors Infinity (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36
-http://103.175.73.12:8080/live/29/29_0.m3u8
-#EXTINF:-1 tvg-id="StarGoldRomance.in@SD" tvg-logo="https://i.imgur.com/gSWv9U3.png" group-title="India",Star Gold Romance (576p)
-http://103.253.18.58:8000/play/a017
-#EXTINF:-1 tvg-logo="https://i.imgur.com/qGRa1KI.png" group-title="Turkey",On4 TV (1080p)
-https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/FcT3beY.png" group-title="United States | Sports",RFD-TV
-http://40.160.24.55/RFD-TV/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/EpMawIy.png" group-title="Canada",CHCO-TV (720p) [Geo-blocked]
+https://temp4.isilive.ca/live/CHCOTV/live/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/n24MrsX.png" group-title="Canada",Legislative Assembly of Ontario
+https://temp3.isilive.ca/live/_definst_/ontla/house-en/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.ibb.co/3yfMjmf/logo-3.png" group-title="Indonesia",Alwafa Tarim TV (Am Media) (720p)
+https://ammedia.siar.us/ammedia/live/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/odwRbRk.png" group-title="Philippines",ANC (480p)
+https://streams.comclark.com/pknsd/anc/playlist.m3u8
