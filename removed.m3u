@@ -1,3 +1,25 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/DrrlxTO.png" group-title="Iraq",Al Iraqia Sport (720p)
-https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8
+#EXTINF:-1 tvg-id="4TVNews.in@SD" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/4_TV.png" group-title="India",4TV News (576p)
+https://cdn-4.pishow.tv/live/1007/master.m3u8
+#EXTINF:-1 tvg-id="BIGTV.in@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/BiG_TV_%28Stacked%29.svg/revision/latest/scale-to-width-down/250?cb=20180316124023" group-title="India",BIG TV (720p)
+https://cdn-1.pishow.tv/live/1059/master.m3u8
+#EXTINF:-1 tvg-id="GulistanNews.in" tvg-logo="https://i.imgur.com/q5z6ycZ.png" group-title="India",Gulistan News (720p)
+https://live.gulistannews.in/hls/gul.m3u8
+#EXTINF:-1 tvg-id="JinvaniChannel.in@SD" tvg-logo="https://i.imgur.com/lztyGVi.png" group-title="India",Jinvani Channel (720p)
+https://cdn-2.pishow.tv/live/989/master.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Maha_Movies.png" group-title="India",Maha Movie (576p)
+https://cdn-6.pishow.tv/live/10007/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/AWUcSb8.png" group-title="India",Maha Punjabi
+https://cdn-4.pishow.tv/live/1521/master.m3u8
+#EXTINF:-1 tvg-id="ManoranjanGrand.in@SD" tvg-logo="https://i.imgur.com/qfMEz78.png" group-title="India",Manoranjan Grand (720p)
+https://cdn-1.pishow.tv/live/1011/master.m3u8
+#EXTINF:-1 tvg-id="NewsJ.in@SD" tvg-logo="https://i.imgur.com/RqeF8RR.png" group-title="India",News J (720p) [Not 24/7]
+https://cdn-3.pishow.tv/live/1279/master.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/n7FhveH.png" group-title="India",Samachar Plus
+https://cdn-2.pishow.tv/live/269/master.m3u8
+#EXTINF:-1 tvg-logo="https://static.telewebion.com/channelsLogo/d602596d-7b8d-48ef-8f51-9344b4ac0eb6/default" group-title="Iran",Tekyemadahi
+https://ncdn.telewebion.ir/tekyemadahi/live/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/t7CaTu3.png" group-title="Iraq",Afaq TV
+https://stream.afaq.iq/live/channel/afaqtv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/mUHixbi.png" group-title="United Kingdom",Magna Vision (1080p)
+https://j78dpa3edq5r-hls-live.5centscdn.com/abr/0864028584026e6ad9cdf922473177a4/playlist.m3u8
