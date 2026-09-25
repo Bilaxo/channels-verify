@@ -1,11 +1,11 @@
 # Stream health
 
-_Last checked 2026-09-19 08:50 UTC_
+_Last checked 2026-09-25 09:38 UTC_
 
-- Channels in playlist: **1259**
-- Failed this run: **28**
-- Healed this run: **0**
-- Removed this run: **5**
+- Channels in playlist: **1255**
+- Failed this run: **16**
+- Healed this run: **2**
+- Removed this run: **4**
 
 When a channel fails twice in a row we first try to heal it with a fresh URL from upstream sources (iptv-org, Free-TV). Only channels with no working replacement are moved to `removed.m3u`.
 
@@ -13,16 +13,25 @@ When a channel fails twice in a row we first try to heal it with a fresh URL fro
 
 | Reason | Channels |
 | --- | ---: |
-| http 404 | 22 |
-| http 403 (blocked) | 3 |
-| connect timeout | 3 |
+| http 404 | 10 |
+| connect timeout | 2 |
+| http 503 | 1 |
+| connectionerror | 1 |
+| read timeout | 1 |
+| http 403 (blocked) | 1 |
+
+## Healed this run
+
+| Channel | New source | New URL |
+| --- | --- | --- |
+| Viasat Explore | iptv-org | https://shift03.isp.bg/ViasatExplorer_HD/index.m3u8 |
+| YourTime TV | iptv-org | https://live.yourtime.tv/hls/stream.m3u8 |
 
 ## Removed this run
 
 | Channel | Last error |
 | --- | --- |
-| ARTN TV (1080p) [Not 24/7] | http 403 (blocked) |
-| CBC (576p) | http 404 |
-| CBC Drama (576p) | http 404 |
-| CBC Sofra (576p) | http 404 |
-| ZB Cinema (720p) | http 404 |
+| Astha TV (1080p) [Not 24/7] | http 404 |
+| NCM Educational & Kids Channel | http 403 (blocked) |
+| TVKU (720p) | http 404 |
+| Tunes 6 (720p) | http 404 |
