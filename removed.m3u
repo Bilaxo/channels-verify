@@ -1,3 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="WinTV.in@SD" tvg-logo="https://i.imgur.com/xQutJMq.png" group-title="India",Win TV (720p)
-https://mumt06.tangotv.in/qYyB8fXVWINTV/index.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/hNuWZWe.png" group-title="Albania",Zjarr TV (360p)
+https://zjarr.future.al/hls/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/rntSEDZ.png" group-title="Canada",EET TV (1080p) [Not 24/7]
+https://eu.streamjo.com/eetlive/eettv.m3u8
+#EXTINF:-1 tvg-id="EETTV.in" tvg-logo="https://i.imgur.com/rMldFW8.png" group-title="India",EET TV (1080p) [Not 24/7]
+https://live.streamjo.com/eetlive/eettv.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/Spacetoon_logo.png" group-title="International",Spacetoon Arabic (576p)
+https://live-uae-next.spacetoongo.com/ST_MENA_NEXT/hls/r9p2hjipmw2kl.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/GZT_logo.svg/960px-GZT_logo.svg.png" group-title="Turkey",GZT (1080p)
+https://gzttv-live.lg.mncdn.com/gzttv/gzttv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" group-title="Turkey",Tele 1 (1080p)
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
