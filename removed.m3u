@@ -1,11 +1,1 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/jT95ZEI.png" group-title="Bosnia and Herzegovina",Televizija M (1080p)
-https://live.tv-m.net/hls/stream.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/ndQ8LZp.png" group-title="India",AmarUjala (1080p)
-https://amarujala.ottlive.co.in/amarujala/index.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/d/d0/TvMu.png" group-title="Indonesia",TV Mu (720p) [Not 24/7]
-https://e.siar.us/live/tvmu.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/9F7VYDM.png" group-title="United States | Home & Lifestyle",E! Keeping Up (1080p)
-https://xumo-xumoent-vc-117-a3ga4.fast.nbcuni.com/live/master.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/GYfsHh9.png" group-title="United States | Persian & Afghan",Payam Javan TV (720p) [Not 24/7]
-https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
